@@ -281,19 +281,7 @@ export default function Home() {
                   <div class="h-[90%] bg-gray-200 p-8">
                     <h2 class="text-2xl font-bold mb-4">Question</h2>
                     <h4 class=" mb-4">{qs[i].Question}</h4>
-                    { 
-                      imgs[i-1]?(
-                        <Image 
-                        src={imgs[i-1].var}
-                        alt="My Image"
-                        class=" mb-3  shadow-lg"
-                        height={200}
-                        width={600}
-                        />
-                      ):(
-                        <div></div>
-                      )
-                    }
+                    
                     
                     <div class="flex flex-col space-y-4">
                       {/* options */}
